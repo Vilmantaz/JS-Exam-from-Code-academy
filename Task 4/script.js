@@ -26,16 +26,17 @@ const displayCars = (cars) => {
         const brand = document.createElement('b');
         brand.innerText = car.brand;
         const models = document.createElement('div');
-        models.innerText = car.models;
-
+        models.className = 'models'
+        models.innerText = car.models
         const brandBox = document.createElement('div');
-        const modelBox = document.createElement('div');
+        
         const carBox = document.createElement('div');
+        carBox.className = 'car-box';
 
         brandBox.append(brand);
-        modelBox.append(models);
+       
 
-        carBox.append(brandBox, modelBox);
+        carBox.append(brandBox, models);
         carContainer.append(carBox);
     });
 }
