@@ -10,5 +10,7 @@ const clickCount = document.getElementById('btn__state');
 button.addEventListener('click', () => {
     if (true) {
         clickCount.innerText ++;
+    } else {
+        alert ('Something went wrong');
     }
 });
