@@ -9,8 +9,6 @@ Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
 
-
-
 document.querySelector('form').addEventListener('submit', (event) => {
     event.preventDefault();
     
@@ -23,9 +21,9 @@ document.querySelector('form').addEventListener('submit', (event) => {
 
     outputContainer.innerText = '';
 
-    const label = Number(inputValue * 2.2046);
-    const grams = Number(inputValue / 0.0010000);
-    const ounce = Number(inputValue * 35.274);
+    const label = inputValue * 2.2046;
+    const grams = inputValue / 0.0010000;
+    const ounce = inputValue * 35.274;
 
     labelContainer.innerText = `Svarai: ${label}`;
     gramsContainer.innerText = `Gramai: ${grams}`;
