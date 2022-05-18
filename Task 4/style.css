@@ -28,8 +28,20 @@
   color: #333;
 }
 
+#output {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.models {
+  
+  display: inline-block;
+ 
+}
+
 #output div {
   margin: 2rem;
+  width: 40%;
 }
 
 #output div div {
