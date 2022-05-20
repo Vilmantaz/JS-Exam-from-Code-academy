@@ -26,29 +26,22 @@
 .container h1 {
   margin-top: 50px;
   color: #333;
+  font-size: 4rem;
 }
 
-#output {
-  display: flex;
-  flex-wrap: wrap;
+.car-box {
+  margin: 2rem 5rem;
+  background-color: rgb(6, 124, 51);
+  border-radius: 1rem;
 }
 
-.models {
-  
-  display: inline-block;
- 
-}
-
-#output div {
-  margin: 2rem;
-  width: 40%;
-}
-
-#output div div {
+.car-box div {
   margin-bottom: 1rem;
+  padding: 1rem 5rem 2rem 5rem;
 }
 
-#output div div b {
+.car-box div b {
   text-decoration: underline;
   font-size: 3rem;
+  color: rgb(7, 35, 39);
 }
